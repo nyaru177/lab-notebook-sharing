@@ -5,7 +5,7 @@
 默认使用“个人分支 + Pull Request”，这样每个人可以独立提交，其他同学也能在合并前阅读和讨论。
 
 1. 同步最新的 `main` 分支。
-2. 先打开 `examples/weekX/` 中对应周次的示例，照着它的首页信息、Markdown 说明和代码组织来写；需要空白起点时再复制 `templates/notebook_template.ipynb`。
+2. 先在各分类目录中打开对应周次的 `*_example.ipynb`，照着它的首页信息、Markdown 说明和代码组织来写；需要空白起点时再复制 `templates/notebook_template.ipynb`。
 3. 选择最匹配的分类目录，按命名规则保存 Notebook。
 4. 从头运行 Notebook，保存必要的输出并删除无关的大型输出。
 5. 创建个人分支，提交 Notebook 并推送到 GitHub。
@@ -63,7 +63,7 @@ git commit -m "Add sklearn pipeline notebook"
 git push -u origin add-zhangsan-sklearn-pipeline
 ```
 
-提交信息建议使用 `Add <topic> notebook` 或 `Update <topic> notebook`，一次 Pull Request 尽量只包含一个主题或一组紧密相关的 Notebook。提交前应先参考对应周次的示例，模板只是结构兜底。
+提交信息建议使用 `Add <topic> notebook` 或 `Update <topic> notebook`，一次 Pull Request 尽量只包含一个主题或一组紧密相关的 Notebook。提交前应先参考对应周次的 `_example.ipynb`，模板只是结构兜底。
 
 ## 不建议提交的内容
 

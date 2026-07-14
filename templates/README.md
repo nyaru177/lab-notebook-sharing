@@ -1,6 +1,6 @@
 # Notebook 模板
 
-`notebook_template.ipynb` 是共享仓库的结构兜底。提交新内容时，优先打开 `examples/weekX/` 中对应周次的示例，理解一份真实 Notebook 应该怎样组织；需要空白起点时，再复制模板到对应分类目录并替换占位内容。
+`notebook_template.ipynb` 是共享仓库的结构兜底。提交新内容时，优先打开各分类目录中的 `*_example.ipynb`，理解一份真实 Notebook 应该怎样组织；需要空白起点时，再复制模板到对应分类目录并替换占位内容。
 
 使用时注意：
 

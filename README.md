@@ -1,12 +1,12 @@
 # 暑期集训 Notebook 共享仓库
 
-这个仓库用于组内共享前三周的编程技巧、学习技术和方向专题 Notebook。目标是让每份内容都做到“别人打开就能读，按顺序运行就能复现”。
+这个仓库用于组内共享前三周的编程技巧、学习技术和方向专题 Notebook，并提供后续周次的实验结构示例。目标是让每份内容都做到“别人打开就能读，按顺序运行就能复现”。
 
 ## 从哪里开始
 
 | 需求 | 入口 |
 |---|---|
-| 先看每周示例 | 打开 [`examples/week1/` 到 `examples/week8/`](examples/) 中对应周次的 Notebook |
+| 先看每周示例 | 在各分类目录中打开文件名带 `_example` 的 Notebook |
 | 选择一个主题 | 先看下面的分类，再打开对应目录的 `README.md` |
 | 新建 Notebook | 复制 [`templates/notebook_template.ipynb`](templates/notebook_template.ipynb) |
 | 查看提交步骤 | 阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) |
@@ -14,9 +14,9 @@
 
 ## 先看示例，再提交
 
-`examples/week1/` 到 `examples/week8/` 是根据《实验室新生暑期居家集训学习计划》整理的每周示例区，每周一个 Notebook。示例刻意只覆盖原文的一小部分，用来展示文件命名、Notebook 开头信息、Markdown 解释、代码组织和结果分析；它们不是完整作业，也不是唯一答案。
+各分类目录中直接放置了根据《实验室新生暑期居家集训学习计划》整理的每周示例 Notebook。示例文件名使用 `weekX_topic_example.ipynb`，其中 `example` 作为示例作者，仍符合仓库的 `weekX_topic_name.ipynb` 命名规范。示例刻意只覆盖原文的一小部分，用来展示 Notebook 开头信息、Markdown 解释、代码组织和结果分析；它们不是完整作业，也不是唯一答案。
 
-实际提交时，先打开对应周次的示例，再把自己的主题、作者、环境、目标、代码和结论替换进去。具体提交位置仍按最匹配的技能分类目录选择。
+实际提交时，先打开对应周次的 `_example.ipynb`，再把自己的主题、作者、环境、目标、代码和结论替换进去，并将文件放到最匹配的技能分类目录中。
 
 ## 内容分类
 
@@ -24,7 +24,6 @@
 
 | 目录 | 对应内容 | 与《实验室新生暑期居家集训学习计划》的关联 |
 |---|---|---|
-| `examples/weekX/` | 按 Week 1-8 提供的《实验室新生暑期居家集训学习计划》代码示例和提交样例 | 供组内模仿结构和运行方式，不替代个人交付物 |
 | `01-jupyter/` | Jupyter Notebook 使用规范、Markdown、公式、Magic Commands、导出 | Week 1：Jupyter Notebook 系统学习 |
 | `02-numpy-scipy/` | NumPy 数组、索引、广播、矩阵运算、向量化练习；SciPy 选学 | Week 1：NumPy 核心，SciPy 常用模块选学 |
 | `03-matplotlib/` | 训练曲线、混淆矩阵、条形图、ROC/AUC、t-SNE、图片保存 | Week 1：Matplotlib 可视化 |
@@ -33,7 +32,7 @@
 | `06-nlp/` | TF-IDF、Word2Vec、Embedding、t-SNE、LSTM/BiLSTM、BERT | NLP 方向学习与实验相关内容 |
 | `07-computer-vision/` | OpenCV、PIL、RGB/BGR、边缘检测、CNN、ResNet、视频理解 | CV 方向学习与实验相关内容 |
 | `08-git-linux/` | Git/GitHub 工作流、Linux 常用命令、环境操作 | 计划中的编码习惯、协作和提交要求 |
-| `optional/` | Docker、LoRA、QLoRA、实验配置、随机种子等扩展内容 | 非主线内容，可作为补充分享 |
+| `optional/` | 跨分类工具、论文阅读、代码复现和优化等扩展内容 | Week 6-8 样例及其他补充分享 |
 
 ## 一次提交的最低要求
 
