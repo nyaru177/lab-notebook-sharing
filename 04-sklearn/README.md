@@ -1,8 +1,8 @@
 # 04 Sklearn
 
-对应导师原始计划 Week 2 的机器学习基础实验。
+对应《实验室新生暑期居家集训学习计划》Week 2 的机器学习基础实验。
 
-可分享主题：
+可分享主题（例如，以下内容仅供参考，不限于这些内容）：
 
 - train/validation/test 划分
 - 传统分类器：Logistic Regression、SVM、Random Forest
