@@ -6,7 +6,7 @@
 
 | 需求 | 入口 |
 |---|---|
-| 先看每周示例 | 在各分类目录中打开文件名带 `_example` 的 Notebook |
+| 先看每周示例 | 在对应分类目录的 `example/` 子目录中打开 `_example.ipynb` |
 | 选择一个主题 | 先看下面的分类，再打开对应目录的 `README.md` |
 | 新建 Notebook | 复制 [`templates/notebook_template.ipynb`](templates/notebook_template.ipynb) |
 | 查看提交步骤 | 阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) |
@@ -14,9 +14,25 @@
 
 ## 先看示例，再提交
 
-各分类目录中直接放置了根据《实验室新生暑期居家集训学习计划》整理的每周示例 Notebook。示例文件名使用 `weekX_topic_example.ipynb`，其中 `example` 作为示例作者，仍符合仓库的 `weekX_topic_name.ipynb` 命名规范。示例刻意只覆盖原文的一小部分，用来展示 Notebook 开头信息、Markdown 解释、代码组织和结果分析；它们不是完整作业，也不是唯一答案。
+每个分类目录都按“模块 → 成员文件夹”组织内容。仓库提供的示例放在该模块的 `example/` 子目录中；示例文件名使用 `weekX_topic_example.ipynb`，其中 `example` 作为示例作者，仍符合仓库的 `weekX_topic_name.ipynb` 命名规范。示例刻意只覆盖《实验室新生暑期居家集训学习计划》的一小部分，用来展示 Notebook 开头信息、Markdown 解释、代码组织和结果分析；它们不是完整作业，也不是唯一答案。
 
-实际提交时，先打开对应周次的 `_example.ipynb`，再把自己的主题、作者、环境、目标、代码和结论替换进去，并将文件放到最匹配的技能分类目录中。
+实际提交时，先打开对应模块 `example/` 中的样例，再在同一模块下新建自己的 GitHub 用户名文件夹，把 Notebook、图片、依赖和说明文件都放进去。
+
+## 个人提交目录结构
+
+```text
+04-sklearn/
+├── README.md
+├── example/                                  # 仓库示例，勿直接修改
+│   └── week2_sklearn_pytorch_example.ipynb
+└── your-github-name/                         # 每位同学自己的文件夹
+    ├── week2_pipeline_your-github-name.ipynb
+    ├── figures/                              # 可选：图片、图表
+    ├── requirements.txt                      # 可选：额外依赖
+    └── README.md                             # 可选：运行说明
+```
+
+模块根目录不直接放个人 Notebook。一个人的多个 Notebook 放在同一个个人文件夹中；与 Notebook 相关的图片、数据说明和依赖文件也放在这个文件夹内，并使用相对路径。
 
 ## 内容分类
 

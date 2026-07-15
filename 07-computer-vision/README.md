@@ -10,3 +10,7 @@
 - Canny、Sobel、直方图
 - CNN、ResNet、迁移学习
 - 视频理解、3D CNN、Two-Stream、I3D
+
+## 提交位置
+
+请在本目录下新建自己的 GitHub 用户名文件夹，再把 Notebook、图片、依赖和说明文件放入其中；不要直接把个人文件放在模块根目录。示例见 `example/` 文件夹。

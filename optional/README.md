@@ -13,8 +13,12 @@
 
 当前周次示例：
 
-- `week6_paper_reading_example.ipynb`
-- `week7_reproduction_scaffold_example.ipynb`
-- `week8_optimization_example.ipynb`
+- `example/week6_paper_reading_example.ipynb`
+- `example/week7_reproduction_scaffold_example.ipynb`
+- `example/week8_optimization_example.ipynb`
+
+## 提交位置
+
+请在本目录下新建自己的 GitHub 用户名文件夹，再把 Notebook、图片、依赖和说明文件放入其中；不要直接把个人文件放在模块根目录。仓库示例统一放在 `example/` 文件夹。
 
 注意：这些内容不作为前三周公共 Notebook 的必修分类。

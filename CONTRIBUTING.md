@@ -5,8 +5,8 @@
 默认使用“个人分支 + Pull Request”，这样每个人可以独立提交，其他同学也能在合并前阅读和讨论。
 
 1. 同步最新的 `main` 分支。
-2. 先在各分类目录中打开对应周次的 `*_example.ipynb`，照着它的首页信息、Markdown 说明和代码组织来写；需要空白起点时再复制 `templates/notebook_template.ipynb`。
-3. 选择最匹配的分类目录，按命名规则保存 Notebook。
+2. 先在对应分类目录的 `example/` 子目录中打开样例，照着它的首页信息、Markdown 说明和代码组织来写；需要空白起点时再复制 `templates/notebook_template.ipynb`。
+3. 在分类目录下新建自己的 GitHub 用户名文件夹，再按命名规则保存 Notebook。
 4. 从头运行 Notebook，保存必要的输出并删除无关的大型输出。
 5. 创建个人分支，提交 Notebook 并推送到 GitHub。
 6. 创建 Pull Request，填写检查清单，等待至少一位同学快速阅读。
@@ -18,17 +18,17 @@
 建议使用英文小写、下划线分隔的文件名：
 
 ```text
-weekX_topic_name.ipynb
+weekX_topic_githubname.ipynb
 ```
 
 例如：
 
 ```text
-04-sklearn/week2_pipeline_zhangsan.ipynb
-03-matplotlib/week1_tsne_lisi.ipynb
+04-sklearn/zhangsan/week2_pipeline_zhangsan.ipynb
+03-matplotlib/lisi/week1_tsne_lisi.ipynb
 ```
 
-主题只需要聚焦一个明确问题。目录中的“可分享主题”是示例，不是限制；如果主题跨多个方向，放入最主要的目录，并在开头写出相关分类和关键词。
+主题只需要聚焦一个明确问题。目录中的“可分享主题”是示例，不是限制；如果主题跨多个方向，放入最主要的目录，并在开头写出相关分类和关键词。个人文件夹建议使用 GitHub 用户名，避免重名；不要把个人 Notebook 直接放在模块根目录，也不要为每个 Notebook 重复创建一个文件夹。
 
 ## Notebook 最低内容
 
@@ -44,7 +44,8 @@ weekX_topic_name.ipynb
 
 ## 提交前检查
 
-- [ ] 文件放在最匹配的分类目录中，且文件名包含周次、主题和姓名。
+- [ ] 文件放在最匹配的分类目录中，且文件名包含周次、主题和 GitHub 用户名。
+- [ ] 已在分类目录下使用自己的 GitHub 用户名文件夹，未直接写入模块根目录。
 - [ ] Notebook 开头信息完整，目标和运行环境清楚。
 - [ ] 已执行“Restart Kernel and Run All”，没有报错。
 - [ ] 外部数据、依赖和参考链接已说明。
@@ -58,12 +59,12 @@ weekX_topic_name.ipynb
 git switch main
 git pull
 git switch -c add-zhangsan-sklearn-pipeline
-git add 04-sklearn/week2_pipeline_zhangsan.ipynb
+git add 04-sklearn/zhangsan/week2_pipeline_zhangsan.ipynb
 git commit -m "Add sklearn pipeline notebook"
 git push -u origin add-zhangsan-sklearn-pipeline
 ```
 
-提交信息建议使用 `Add <topic> notebook` 或 `Update <topic> notebook`，一次 Pull Request 尽量只包含一个主题或一组紧密相关的 Notebook。提交前应先参考对应周次的 `_example.ipynb`，模板只是结构兜底。
+提交信息建议使用 `Add <topic> notebook` 或 `Update <topic> notebook`，一次 Pull Request 尽量只包含一个主题或一组紧密相关的 Notebook。提交前应先参考对应模块 `example/` 中的 `_example.ipynb`，模板只是结构兜底。
 
 ## 不建议提交的内容
 
