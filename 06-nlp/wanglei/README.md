@@ -29,7 +29,7 @@ tags:
 - 适用周次：Week 2
 - 分类：`06-nlp`，相关基础为 `05-pytorch`
 - 前置知识：Python、PyTorch 张量、矩阵乘法、Softmax
-- 重点：理解 Transformer 的数据流，而不是记忆某个项目的完整工程实现
+- 重点：理解 Transformer 的数据流，工作中的矩阵变化等
 
 ## 内容来源
 
@@ -38,8 +38,6 @@ tags:
 - [Transformer 全面指南](https://luxiangdong.com/2023/09/10/trans/)
 - Vaswani et al., [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [李沐 Transformer 论文逐段精读](https://www.bilibili.com/video/BV1pu411o7BE/)
-
-代码参考B站某视频学习；原始链接找不到了，可以在 B 站搜索“手写 Transformer”学习。
 
 ## 视频学习线索
 
